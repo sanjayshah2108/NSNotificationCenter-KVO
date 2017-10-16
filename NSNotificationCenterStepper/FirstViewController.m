@@ -7,8 +7,11 @@
 //
 
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface FirstViewController ()
+
+@property NSDictionary *userInfo;
 
 @end
 
@@ -16,7 +19,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+   // SecondViewController *secondViewController = [[SecondViewController alloc] init];
+
+}
+
+
+
+- (IBAction)stepperChange:(UIStepper *)sender {
+    
+    //create notif center
+    NSNotificationCenter *notificationCenter = [NSNotificationCenter defaultCenter];
+    
+    //create dictioanry with stepper value
+    self.userInfo = @{@"stepperValue" : @(self.stepper.value)};
+    NSLog(@"%f", (self.stepper.value));
+    
+    //create a notification with a name, self?, adn a dict
+    NSNotification* notification = [[NSNotification alloc] initWithName:@"increaseStepper" object:self userInfo:self.userInfo];
+    
+    //post notif to the notif Center
+    [notificationCenter postNotification:notification];
+    
 }
 
 

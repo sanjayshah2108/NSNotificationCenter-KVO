@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ThirdViewController.h
 //  NSNotificationCenterStepper
 //
 //  Created by Sanjay Shah on 2017-10-15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIStepper *stepper;
-
+@interface ThirdViewController : UIViewController
 
 @end
-

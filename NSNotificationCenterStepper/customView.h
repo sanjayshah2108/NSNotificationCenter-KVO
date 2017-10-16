@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  customView.h
 //  NSNotificationCenterStepper
 //
 //  Created by Sanjay Shah on 2017-10-15.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface customView : UIView
 
-@property (weak, nonatomic) IBOutlet UIStepper *stepper;
+@property CGPoint *point;
 
 
 @end
-

@@ -16,6 +16,9 @@
 		CE9139F21F93D89200F2F097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9139F11F93D89200F2F097 /* main.m */; };
 		CE9139FC1F93D89200F2F097 /* NSNotificationCenterStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9139FB1F93D89200F2F097 /* NSNotificationCenterStepperTests.m */; };
 		CE913A071F93D89200F2F097 /* NSNotificationCenterStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE913A061F93D89200F2F097 /* NSNotificationCenterStepperUITests.m */; };
+		CE913A161F94176400F2F097 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE913A151F94176400F2F097 /* ThirdViewController.m */; };
+		CE913A191F94247700F2F097 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE913A181F94247700F2F097 /* FourthViewController.m */; };
+		CE913A1C1F94259600F2F097 /* customView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE913A1B1F94259600F2F097 /* customView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		CE913A021F93D89200F2F097 /* NSNotificationCenterStepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationCenterStepperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE913A061F93D89200F2F097 /* NSNotificationCenterStepperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenterStepperUITests.m; sourceTree = "<group>"; };
 		CE913A081F93D89200F2F097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE913A141F94176400F2F097 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CE913A151F94176400F2F097 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CE913A171F94247700F2F097 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		CE913A181F94247700F2F097 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		CE913A1A1F94259600F2F097 /* customView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customView.h; sourceTree = "<group>"; };
+		CE913A1B1F94259600F2F097 /* customView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +119,13 @@
 				CE9139E31F93D89200F2F097 /* FirstViewController.m */,
 				CE9139E51F93D89200F2F097 /* SecondViewController.h */,
 				CE9139E61F93D89200F2F097 /* SecondViewController.m */,
+				CE913A141F94176400F2F097 /* ThirdViewController.h */,
+				CE913A151F94176400F2F097 /* ThirdViewController.m */,
+				CE913A171F94247700F2F097 /* FourthViewController.h */,
+				CE913A181F94247700F2F097 /* FourthViewController.m */,
 				CE9139E81F93D89200F2F097 /* Main.storyboard */,
+				CE913A1A1F94259600F2F097 /* customView.h */,
+				CE913A1B1F94259600F2F097 /* customView.m */,
 				CE9139EB1F93D89200F2F097 /* Assets.xcassets */,
 				CE9139ED1F93D89200F2F097 /* LaunchScreen.storyboard */,
 				CE9139F01F93D89200F2F097 /* Info.plist */,
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE913A191F94247700F2F097 /* FourthViewController.m in Sources */,
 				CE9139E71F93D89200F2F097 /* SecondViewController.m in Sources */,
+				CE913A161F94176400F2F097 /* ThirdViewController.m in Sources */,
 				CE9139E11F93D89200F2F097 /* AppDelegate.m in Sources */,
 				CE9139F21F93D89200F2F097 /* main.m in Sources */,
+				CE913A1C1F94259600F2F097 /* customView.m in Sources */,
 				CE9139E41F93D89200F2F097 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
