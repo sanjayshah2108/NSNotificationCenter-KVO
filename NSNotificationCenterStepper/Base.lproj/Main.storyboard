@@ -51,7 +51,7 @@
                             <outletCollection property="gestureRecognizers" destination="Wbb-vA-Fxo" appends="YES" id="chk-tl-bGC"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Z0c-6y-Hoj"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="first" id="Z0c-6y-Hoj"/>
                     <connections>
                         <outlet property="bottomConstraint" destination="KvS-Jw-qKL" id="DdM-Pa-PgN"/>
                         <outlet property="textField" destination="TcL-ht-Kee" id="4XX-9s-zr5"/>
@@ -159,7 +159,7 @@
                             <outletCollection property="gestureRecognizers" destination="WQP-LL-zhL" appends="YES" id="hC7-mS-R99"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Mi9-3j-TDf"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="second" id="Mi9-3j-TDf"/>
                     <connections>
                         <outlet property="inputView" destination="Fx5-g6-XyA" id="9wr-Qb-blb"/>
                         <outlet property="movingView" destination="DqD-vv-Xha" id="66S-TX-cWI"/>

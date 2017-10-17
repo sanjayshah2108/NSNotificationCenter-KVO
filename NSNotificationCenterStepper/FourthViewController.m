@@ -24,9 +24,16 @@
 
 - (IBAction)pan:(UIPanGestureRecognizer *)sender {
     
-    CGPoint currentPoint = [sender locationInView:self.inputView];
+    CGPoint currentPoint = [sender translationInView:self.inputView];
     
-    self.movingView.center = currentPoint;
+    CGRect movingViewRect =  self.movingView.frame;
+    
+    movingViewRect.origin.x += currentPoint.x;
+    movingViewRect.origin.y += currentPoint.y;
+    
+    self.movingView.frame = movingViewRect;
+    
+    [sender setTranslation:CGPointZero inView:self.movingView];
     
     
 }
